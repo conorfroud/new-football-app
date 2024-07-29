@@ -1,6 +1,5 @@
 highlight_text
 matplotlib
-matplotlib_venn
 pandas==1.5.3
 plotly
 scipy
