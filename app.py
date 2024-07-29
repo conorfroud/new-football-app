@@ -11,7 +11,6 @@ import plotly.express as px
 import pandas as pd
 from scipy import stats
 import plotly.graph_objs as go
-from matplotlib_venn import venn3
 from math import pi
 from mplsoccer import Pitch
 from mplsoccer import PyPizza
