@@ -11,7 +11,6 @@ import plotly.express as px
 import pandas as pd
 from scipy import stats
 import plotly.graph_objs as go
-from matplotlib_venn import venn3
 from math import pi
 from mplsoccer import Pitch
 from mplsoccer import PyPizza
@@ -2175,7 +2174,7 @@ df2 = pd.read_csv("championshipscores.csv")
 df3 = pd.read_csv("nonpriorityleaguesdata.csv")
 
 # Create the navigation menu in the sidebar
-selected_tab = st.sidebar.radio("Navigation", ["Stoke Score", "Player Radar Single", "Player Radar Comparison", "Scatter Plot", "Multi Player Comparison Tab", "Similarity Score", "Stat Search", "Stoke Score - Wyscout", "Confidence Scores", "Report Search", "Player Database"])
+selected_tab = st.sidebar.radio("Navigation", ["Confidence Scores"])
 
 # Based on the selected tab, display the corresponding content
 if selected_tab == "Stoke Score":
