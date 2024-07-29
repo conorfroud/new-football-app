@@ -1,0 +1,11 @@
+highlight_text
+matplotlib
+matplotlib_venn
+pandas==1.5.3
+plotly
+scipy
+streamlit
+mplsoccer
+scikit-learn
+numpy==1.24.3
+st-gsheets-connection
